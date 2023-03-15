@@ -234,13 +234,16 @@ a {
   }
   footer {
     padding: 60px;
+    background: linear-gradient(#4d97a9e1, #4d97a9d1),
+      url(./images/tablet/image-footer.jpg);
+    background-size: 100%;
   }
   .footer-information {
     gap: 40px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
   header {
     background-image: none;
     margin-top: 60px;
@@ -271,17 +274,16 @@ a {
     max-width: 43%;
   }
   footer {
-    padding: 100px;
-    padding-right: 160px;
-    padding-left: 160px;
+    padding: 50px;
+    padding-right: 60px;
+    padding-left: 60px;
+    background: linear-gradient(#4d97a9e1, #4d97a9d1),
+      url(./images/desktop/image-footer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
   .footer-information {
     flex-direction: row;
-    gap: 100px;
     text-align: start;
-  }
-  .footer-information p,
-  .footer-information h2 {
-    max-width: 30%;
   }
 }
